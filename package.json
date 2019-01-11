@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tubepress/eslint-config",
   "peerDependencies": {
-    "eslint" : "^5.12"
+    "eslint"               : "^5.12",
+    "eslint-plugin-import" : "^2.14"
   }
 }
