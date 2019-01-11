@@ -1,0 +1,22 @@
+{
+  "name": "@tubepress/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for TubePress",
+  "author": "Eric Hough <eric@tubepress.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tubepress/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "bugs": {
+    "url": "https://github.com/tubepress/eslint-config/issues"
+  },
+  "homepage": "https://github.com/tubepress/eslint-config",
+  "peerDependencies": {
+    "eslint" : "^5.12"
+  }
+}
