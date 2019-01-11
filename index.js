@@ -7,6 +7,9 @@ module.exports = {
   parserOptions: {
     sourceType: 'module'
   },
+  plugins: [
+    'import',
+  ],
   extends: 'eslint:recommended',
   rules: {
 
@@ -139,5 +142,14 @@ module.exports = {
     'prefer-template'         : ['warn'],
     'template-curly-spacing'  : ['warn'],
     'yield-star-spacing'      : ['warn', 'both'],
+
+    // plugin: imports
+    'import/first'                    : ['warn'],
+    'import/exports-last'             : ['warn'],
+    'import/no-duplicates'            : ['warn'],
+    'import/order'                    : ['warn'],
+    'import/newline-after-import'     : ['warn'],
+    'import/no-useless-path-segments' : ['warn'],
+    'import/no-absolute-path'         : ['warn'],
   },
 };
