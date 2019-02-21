@@ -5,7 +5,11 @@ module.exports = {
     es6: true,
   },
   parserOptions: {
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaVersion: 10,
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   plugins: [
     'import',
