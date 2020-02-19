@@ -1,6 +1,6 @@
 {
   "name": "@tubepress/eslint-config",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "ESLint config for TubePress",
   "author": "Eric Hough <eric@tubepress.com>",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/tubepress/eslint-config",
   "peerDependencies": {
-    "eslint"               : "^5.12",
-    "eslint-plugin-import" : "^2.14"
+    "eslint"               : "^6.8",
+    "eslint-plugin-import" : "^2.20"
   }
 }
